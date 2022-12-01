@@ -16,6 +16,12 @@ export default function Home() {
           <a href="https://nextjs.org">Vercel deploy Next.js!</a>
         </h1>
         <p>December 1, 2022</p>
+
+        <p className={styles.description}>
+          Installed 
+          <code className={styles.code}>Chakra UI</code>
+        </p>
+
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
