@@ -19,12 +19,17 @@ export default function Home() {
 
         <p className={styles.description}>
           Installed 
-          <code className={styles.code}>Chakra UI</code>
+          <code className={styles.codedark}>Chakra UI</code>
+        </p>
+
+        <p className={styles.description}>
+          Imported  
+          <code className={styles.codedark}>Chakra UI</code> Provider
         </p>
 
         <p className={styles.description}>
           Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.codedark}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
